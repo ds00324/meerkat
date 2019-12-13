@@ -1,0 +1,20 @@
+.wrap{width:360px;margin:0 auto;padding-bottom:79px;}
+
+        .header>.top{padding-top:30px;}
+        .header>.top>.logo{float: left;width:50%;padding-left:3.333333333333333%;}
+        .header>.top>.logo>a{padding-left:6.666666666666667%;font-size:20px;}
+        .header>.top>.icon_right{float:left;width:50%;padding-left:22.22222222222222%;}
+        .header>.top>.icon_right>a>img:first-child{margin-right:10px;}
+        .header>.top>.icon_right>img:last-child{padding-left:5%;}
+        .header>.bottom{margin-bottom:20px;}
+        .header>.bottom>.sbox{font-size:10px;margin:0 0 10px 3.333333333333333%;background:#db7700;padding:6px;border-radius:5px;}
+
+        .chatting{padding:0 3.333333333333333%;overflow: hidden;}
+        .chatting>h1{background:#db7700;border-top-right-radius:10px;border-top-left-radius:10px;font-size:20px;padding:10px 0;text-align:center;}
+        .chatting>.box1{  height:530px;background:#efefef;border-bottom:1px solid #db7700;}
+        .chatting>.box2{ background:#efefef;padding:10px 0;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}
+        .chatting>div>input{margin-left:10px;width:280px;font-size:20px;border:none;padding:5px;text-align:top;background:#efefef;float: left;}
+        .chatting>div>button{width:30px;height:30px;margin-right:10px;border:none;float:right;}
+        .chatting>div>button>img{width:30px;height:30px;background:#efefef;}
+
+        .chatting>.box1>div{background:yellow;border-radius:20px;font-size:20px;float:right; padding: 3px; margin: 8px 5px 0 0;}

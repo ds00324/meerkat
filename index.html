@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MeerKat</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon-precomposed" href="">
+
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <!-- 자바스트립트/jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <script>
+        setTimeout(function(){
+           $('.loading-container').css('display','none')
+           $('.header').css('padding','60px')
+        }, 2000);
+        setTimeout(function(){
+            $('.container').css('display','block')
+        }, 2001);
+        setTimeout(function(){
+            $('.container').css('padding-top','20px')
+        }, 2500);
+
+        
+    </script>
+
+    <!-- CSS 스타일 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <img src="img/intro.svg" alt="로고">
+            <h1>MeerKat</h1>
+        </header>
+        
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-text">loading</div>
+        </div>
+        
+        <div class="container clearfix">
+            <div class="box01">
+                <div class="user_id">
+                    <img src="img/login_icon01.svg" alt="id_icon">
+                    <input type="text" placeholder="아이디" id="user_id">
+                </div>
+                <div class="user_pw">
+                    <img src="img/login_icon02.svg" alt="password_icon">
+                    <input type="password" placeholder="비밀번호" id="user_pass">
+                </div>
+            </div>
+            <div class="box02">
+               <a href="home.html"><button id="login_btn" href="home.html">로그인</button></a>
+            </div>
+            <div class="box03">
+                <input type="checkbox" id="auto_login">
+                <label for="auto_login">자동로그인</label>
+            </div>
+            <div class="box04">
+                <ul>
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+            <div class="box05">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/google.png" alt="google">
+                <img src="img/kakao.png" alt="kakao">
+            </div>
+        </div> 
+
+        
+
+
+    </div>
+
+    
+</body>
+</html>

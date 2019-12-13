@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MeerKat</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png">
+
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <!-- 자바스트립트/jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <script>
+        var tmp=0;
+        function onOffBtn(){
+            var box01=document.querySelector('#box01');
+            var box02=document.querySelector('#box02');
+            if(tmp==0){
+                box01.style.backgroundColor='#faf144';
+                box02.style.transform='translateX(30px)';
+                tmp=1;
+            }else{
+                box01.style.backgroundColor='#b5b5b5';
+                box02.style.transform='translateX(0px)';
+                tmp=0;
+            }
+        }
+        function onOffBtn01(){
+            var box03=document.querySelector('#box03');
+            var box04=document.querySelector('#box04');
+            if(tmp==0){
+                box03.style.backgroundColor='#faf144';
+                box04.style.transform='translateX(30px)';
+                tmp=1;
+            }else{
+                box03.style.backgroundColor='#b5b5b5';
+                box04.style.transform='translateX(0px)';
+                tmp=0;
+            }
+        }
+        function onOffBtn02(){
+            var box05=document.querySelector('#box05');
+            var box06=document.querySelector('#box06');
+            if(tmp==0){
+                box05.style.backgroundColor='#faf144';
+                box06.style.transform='translateX(30px)';
+                tmp=1;
+            }else{
+                box05.style.backgroundColor='#b5b5b5';
+                box06.style.transform='translateX(0px)';
+                tmp=0;
+            }
+        }
+    </script>
+
+    <!-- CSS 스타일 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/mypage.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="top clearfix">
+                <div class="logo"><a href="index.html">Meerkat</a></div>
+                <div class="icon_right"><a href="#"><img src="img/icon_09.svg" alt="친구목록"></a></div>
+            </div>
+        </header> 
+        <hr>
+        <section class="info_section">
+            <article class="info_art">
+                <div class="info_profile">
+                    <img src="img/profile_img.jpg" alt="profile">
+                </div>
+                <div class="info_right">
+                        <p><a href="#">수정</a><img src="img/icon_10.svg" alt=">"></p>
+                    <ul class="info_name">
+                        <li>한 귀욤<span>2000.06.17</span></li>
+                        <hr>
+                        <li>서울특별시</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="info_art2 clearfix">
+                <ul class="info_menu">
+                    <li>상세 관심사<span><img src="img/icon_10.svg" alt=">"></span></li>
+                    <hr>
+                    <li>내 관심모임<span><img src="img/icon_10.svg" alt=">"></span></li>
+                    <hr>
+                    <li>개인보안 설정<span><img src="img/icon_10.svg" alt=">"></span></li>
+                </ul>
+            </article>
+            <hr>
+            <article class="feed_art">
+                <div>알림</div>
+                <div class="feed_btn">
+                    <div>
+                        <span>채팅 알림</span>
+                        <div id="box01" class="box01" onclick="onOffBtn();">
+                            <div id="box02" class="box02"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>게시글 알림</span>
+                        <div id="box03" class="box01" onclick="onOffBtn01();">
+                            <div id="box04" class="box02"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>1:1태그 메시지</span>
+                        <div id="box05" class="box01" onclick="onOffBtn02();">
+                            <div id="box06" class="box02"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article class="notice_art">
+                <h1>공지사항</h1>
+                <h3>11월 30일</h3>
+                <p>구글 부가세 표기 변경에 따른, 요금제 변경 안내!</p>
+                <h3>11월 28일</h3>
+                <p>서비스 개인정보 취급방침 및 이용약관 개정안내(2017/3/13)</p>
+                <h3>11월 28일</h3>
+                <p>서비스 개인정보 취급방침 및 이용약관 개정안내(2017/3/13)</p>
+                <h3>11월 28일</h3>
+                <p>서비스 개인정보 취급방침 및 이용약관 개정안내(2017/3/13)</p>
+            </article>
+        </section>
+        <footer class="footer">
+            <ul>
+                <li>
+                    <div>
+                        <a href="home.html"><img src="img/icon_01.svg" alt="홈"><p>홈</p></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="search.html"><img src="img/icon_02.svg" alt="검색"><p>검색</p></a>
+                    <div>
+                    </div>
+                </li>
+                <li>
+                    <a href="chatting.html"><img src="img/icon_03.svg" alt="대화방"><p>대화방</p></a>
+                    <div>
+                    </div>
+                </li>
+                <li>
+                    <a href="favorites.html"><img src="img/icon_04.svg" alt="즐겨찾기"><p>즐겨찾기</p></a>
+                    <div>
+                    </div>
+                </li>
+                <li>
+                    <a href="mypage.html"><img src="img/icon_05_db7700.svg" alt="내 정보"><p class="footer_color">내 정보</p></a>
+                    <div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tmp">
+                <a href="#"><img src="img/icon_08.svg" alt="설정"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.wrap{width:360px;margin:0 auto;padding-bottom:79px;}
+    hr{height:2px;width:100%;background:#ccc;color:#ccc;border:none;}
+    .header{}
+
+    .tmp{width:60px;height:60px;text-align:center;position:fixed;bottom:90px;right:15px; border-radius:30px;background:#ffcf9f;z-index:2;}
+    .tmp>a>img{padding-top:10px;}
+
+    .header>.top{padding-top:30px;margin-bottom:15px;}
+    .header>.top>.logo{float: left;width:50%;padding-left:3.333333333333333%;}
+    .header>.top>.logo>a{padding-left:6.666666666666667%;color:#db7700;font-size:36px;font-weight:bold;font-family: 'Roboto', sans-serif;text-align:top;}
+    .header>.top>.icon_right{float:left;width:50%;padding-left:22.22222222222222%;padding-top:10px;}
+    .header>.top>.icon_right>a>img:first-child{margin-right:10px;}
+    .header>.top>.icon_right>img:last-child{padding-left:5%;}
+    .header>.bottom{}
+    .header>.bottom>p{font-size:20px;line-height:20px;padding-left:3.333333333333333%;padding-bottom:10px;}
+
+    .section01>.section01_top{height:40px;}
+    input{margin-left:6.666666666666667%}
+
+    .input_out_box{ border: 1px solid #efefef;border-radius: 25px;width: 316px;margin-left: 5.555555555555556%;}    
+    .input_out_box>button{float: left; width:24px; height:24px; background: none; border: none; margin: 8px 0 0 12px ;}
+    .input_out_box>button>img{width: 100%; height: 100%;}
+    .section01_top_input{  border: none; width: 250px; height: 36px; margin-left: 10px;}
+   
+    .section_txt_left{float:left;padding-left:6.666666666666667%;font-size:16px;}
+    .section_txt_rigth{float:right;padding-right:6.666666666666667%;padding-top:6px;font-size:13px;}
+    
+ 
+    .section02>.section02_top{height:56px;padding:14px 0;}
+    .section02_bottom .section02_list{width:100%;padding-left:3.333333333333333%;padding-bottom:10px;}
+    .section02_bottom img{width:80px;height:80px;border-radius:15px;float: left;}
+    .section02_bottom p:nth-child(1){font-size:16px;float: left;padding-left:14px;}
+    .section02_bottom p:nth-child(2){font-size:12px;float: left;padding-left:14px;color:#ccc;}
+    .section02_bottom>ul>li>a>p{font-size:12px;float:right;padding-top:40px;padding-right:10px;color:#db7700;}
+
+    
